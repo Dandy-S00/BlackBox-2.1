@@ -1,0 +1,69 @@
+# Session TODO
+
+- [x] Verify the existing BlackBox branding, Android identity, and launcher asset configuration.
+- [x] Run automated TypeScript and application test checks required for release readiness.
+- [x] Record Android APK publishing handoff steps and save a release checkpoint.
+- [x] PDF export of workspace analysis records and findings from the Analysis Detail screen.
+- [x] Improved Gateway tab UI with clearer setup instructions and URL/secret input validation.
+- [x] Real-time job-state visual status indicators and toast notifications on the Dashboard.
+- [x] Finding Detail bottom sheet on Insights with full content and delete option.
+- [x] Workspace-level PDF export button on Workspace Detail screen.
+- [x] 8-bit animated warning icon component with red-highlighted validation errors app-wide.
+- [x] Wire PixelWarning ValidationError into the New Finding form.
+- [x] GitHub App Loader module: search repos, browse releases/branches, queue as analysis target.
+- [x] Add GitHub Loader entry point to the Stack tab and app navigation.
+- [x] Create reusable BlackBox mobile app development skill using skill-creator.
+- [x] Add GitHub PAT settings section with secure local storage and token validation.
+- [x] Add copy URL and open-in-browser buttons to GitHub Loader release asset chips.
+- [x] Update the reusable BlackBox mobile builder skill with repository-history and token-diagnostics patterns.
+- [x] Add a searchable recent GitHub repository history list with quick reload actions.
+- [x] Add active GitHub token permission and remaining API rate-limit diagnostics to Settings.
+- [x] Audit every BlackBox module, navigation route, and in-app verification path for release readiness.
+- [x] Add or strengthen automated and in-app checks where module coverage is incomplete.
+- [x] Run final Android deployment validation and save a deployment-ready checkpoint.
+- [x] Add a guarded Run Test control that dispatches only modules selected in an authorized analysis record.
+- [x] Update the reusable BlackBox mobile builder skill with module-result and APK update-screen guidance.
+- [x] Add a module-specific result summary screen for completed scan records.
+- [x] Add an APK version and update screen with release status and installation guidance.
+- [x] Add signed APK checksum metadata, a copyable integrity display, and verification guidance to Version & updates.
+- [x] Update the reusable BlackBox mobile builder skill with the signed-APK integrity verification workflow.
+- [x] Add a QR-code verified APK download panel gated on a real HTTPS APK URL and published SHA-256 checksum.
+- [x] Update the reusable BlackBox mobile builder skill with secure QR-code APK release guidance.
+- [x] Add secure device-local storage for private gateway URL and access token credentials.
+- [x] Add authenticated gateway connection testing with explicit status and error feedback.
+- [x] Add Gateway UI controls for sign-in, status refresh, and safe credential removal.
+- [x] Add encrypted named gateway profiles with active-profile switching and safe profile removal.
+- [x] Add biometric device confirmation or secure fallback PIN confirmation before gateway dispatch.
+- [x] Add gateway profile management and dispatch confirmation controls to the mobile interface.
+- [x] Update the reusable BlackBox mobile builder skill with profile-switching and dispatch-confirmation guidance.
+- [x] Audit every selectable module for in-app setup guidance, configuration readiness, health verification, and authorized execution coverage.
+- [x] Add missing module-specific setup and configuration guidance to the Stack and Gateway experiences.
+- [ ] Validate each configured module through the in-app system test and report actionable setup states.
+- [x] Assess and document a no-cost private gateway deployment option without exposing privileged services publicly.
+- [ ] Verify the six module statuses through System Test after a real gateway profile is connected; keep unavailable states explicit until then.
+- [ ] Prepare an APK publish handoff after the gateway verification prerequisites are met.
+- [x] Review post-restart runtime logs for application warnings and errors.
+- [x] Run the automated test suite and verify the available application API endpoints.
+- [x] Add a root-level local Android release-bundle command with prerequisite validation.
+- [x] Add optional AI-provider settings with device-local encrypted API-key storage.
+- [x] Support a selected provider and model for narrowly scoped AI-assisted record drafting.
+- [x] Ensure AI keys and prompts are excluded from analysis records, PDF exports, logs, and dispatch payloads.
+- [x] Validate optional AI-provider configuration and request error handling without fabricating AI output.
+- [x] Add a settings guidance area explaining effective BlackBox workflows, authorization boundaries, and each module’s purpose.
+- [x] Add clear module-use reference content and direct routes to setup, Gateway, and System Test flows.
+- [x] Increase visual separation between Live stack health and the dashboard summary cards beneath it.
+- [x] Validate optional AI provider configuration using local deterministic tests and provider error handling without sending an untrusted key.
+- [x] Verify the local Android bundle command’s generated-native-project prerequisite and document the managed APK publish handoff.
+- [x] Run the complete locally available production validation matrix and report any live-gateway release prerequisites.
+- [x] Create a final checkpoint for managed Android APK publishing and download handoff.
+- [x] Update the reusable BlackBox builder skill for AI save feedback and collapsible in-app guidance patterns.
+- [x] Add a visible loading spinner and success confirmation after saving an optional AI provider key.
+- [x] Organize Settings how-to guidance into accessible collapsible sections.
+- [x] Provide safe real-gateway profile and System Test verification instructions without collecting credentials in chat.
+- [ ] Resolve the managed Metro preview process exiting after initial web bundling; API health remains available.
+- [x] Create a Notion page named BlackBox with the completed features, validation results, security boundaries, gateway steps, and Android publishing handoff.
+- [x] Add deterministic test-only gateway health fixtures and System Test coverage without exposing a mock profile in the app.
+- [x] Add a repeatable release-validation command and present recurring execution options for user selection.
+- [x] Review Android release configuration and apply safe app-bundle size optimizations.
+- [x] Export the BlackBox Notion documentation as a validated PDF with deployment summary.
+- [ ] Select the recurring release-validation cadence and result destination before enabling a background schedule.

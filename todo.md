@@ -1,0 +1,39 @@
+# Project TODO
+
+- [x] Establish local-first workspace, job, finding, and stack-module data models.
+- [x] Build the Command Deck with actionable empty states and a prepared-analysis entry point.
+- [x] Build workspace creation, browsing, and detail navigation flows.
+- [x] Build the authorized analysis preparation flow with module selection and acknowledgement.
+- [x] Build locally persisted analysis-detail workflow updates.
+- [x] Build the findings review and filter interface with an honest empty state.
+- [x] Build a stack capability screen that represents all supplied analysis services without credentials or remote control.
+- [x] Implement local data clearing with an explicit confirmation step.
+- [x] Apply the research-workspace visual system and iOS-appropriate tab navigation.
+- [x] Generate and apply original launcher branding assets and update mobile configuration.
+- [x] Add automated tests for local persistence and analysis job validation.
+- [x] Validate type checking and the principal mobile screen layouts.
+- [x] Define an operator-controlled gateway contract that limits supported status and job actions.
+- [x] Use the existing secure session storage and server-side gateway secrets, keeping operator credentials out of application state.
+- [x] Add authenticated stack-health monitoring with redacted error handling.
+- [x] Add an explicit two-step approval flow before dispatching a job to the gateway.
+- [x] Add gateway status, dispatch history, and connection controls to the mobile interface.
+- [x] Add automated tests for gateway request validation and authorization safeguards.
+- [x] Validate gateway behavior, TypeScript, and affected mobile screens.
+- [x] Add a deployable private-host gateway package with allowlisted health probes and approved-job handoff.
+- [x] Define dashboard summaries derived from locally stored dispatch records.
+- [x] Add a dashboard screen with local dispatch activity, module distribution, and workflow metrics.
+- [x] Enrich gateway health responses with per-module availability for dashboard visualization.
+- [x] Add periodic authorized stack-health refresh, manual refresh, and degraded-state feedback.
+- [x] Add tests for dispatch dashboard aggregation and stack-health response validation.
+- [x] Validate dashboard behavior, type checking, and mobile layout.
+- [x] Define a production deployment topology for the mobile backend, gateway, executor, and private analysis stack.
+- [x] Document the security controls, secrets lifecycle, observability, backup, and release process.
+- [x] Create a reusable secure-deployment agent skill using the prescribed skill-creation workflow.
+- [x] Create a repeatable deployment workflow and an operator agent specification.
+- [x] Validate the packaged deployment artifacts and production guidance.
+- [x] Expand the reusable operations skill to cover app initialization, implementation, validation, checkpointing, and publishing handoff.
+- [x] Bundle the validated skill source and a downloadable skill archive with the application code.
+- [x] Validate the enhanced skill package and its versioned project copy.
+- [x] Restore the unresponsive development-server preview and confirm availability.
+- [x] Write a concise README covering the BlackBox application, architecture, setup, and operations.
+- [x] Update the application display name to BlackBox while retaining the existing immutable project slug.

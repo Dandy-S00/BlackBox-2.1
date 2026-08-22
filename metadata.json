@@ -1,0 +1,8 @@
+{
+  "name": "BlackBox2",
+  "description": "Imported from GitHub: Dandy-S00/BlackBox2",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
